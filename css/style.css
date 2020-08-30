@@ -383,6 +383,10 @@ h1.main-title {
 	height: 32rem;
 }
 
+.like {
+	margin-left: 570px;
+}
+
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
@@ -597,7 +601,7 @@ h3.blog-tittle {
 }
 
 .inner-sec {
-	margin-top: 2.2em;
+	margin-top: 0.3em;
 }
 
 .blog-grid-top a.email-find {
@@ -828,6 +832,10 @@ button.btn.btn-primary.play {
 
 .blog-info-middle ul li {
 	display: inline-block;
+}
+
+.comment-section {
+	margin-top: 30px;
 }
 
 .blog-grid-top h3,
@@ -1161,9 +1169,12 @@ li.breadcrumb-item a {
 	color: #333;
 }
 
-.breadcrumb-item.active {
+.breadcrumb-item.active,
+.breadcrumb-item a:hover {
 	color: var(--blue);
 }
+
+
 
 .card {
 	border: none;
