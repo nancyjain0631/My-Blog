@@ -604,6 +604,57 @@ h3.blog-tittle {
 	margin-top: 0.3em;
 }
 
+.hurry {
+	max-width: 1140px;
+	margin-bottom: 10px;
+	margin-right: 370px;
+
+}
+
+.hurry .hurry-inner-padding {
+	padding: 10px;
+
+}
+
+.hurry .hurry-inner-padding .hurry-info {
+	color: #002651;
+	/* border-color: #a1eafb; */
+	background-color: #a6fff2;
+	text-align: left;
+	padding: 10px;
+	border-left: 6px solid #74f9ff;
+}
+
+.hurry .hurry-inner-padding .hurry-info p {
+	line-height: 20px;
+	font-size: 14px;
+	margin: 4px 0;
+
+}
+
+.hurry .hurry-inner-padding .hurry-info b {
+	font-size: 14px;
+}
+
+.hurry .hurry-inner-padding .hurry-info a {
+	font-size: 14px;
+	color: #002651;
+}
+
+.hurry .hurry-inner-padding .hurry-info a:hover {
+	text-decoration: underline;
+}
+
+.hurry .hurry-inner-padding .hurry-info h5 {
+	font-weight: 600;
+	font-size: 16px;
+}
+
+.hurry .hurry-inner-padding .hurry-info i.fas {
+	font-size: 14px;
+	margin-left: 5px;
+}
+
 .blog-grid-top a.email-find {
 	text-decoration: none;
 	font-weight: bolder;
