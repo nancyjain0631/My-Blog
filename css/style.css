@@ -11,6 +11,10 @@ body {
 	background: #fff;
 }
 
+body {
+	overflow-x: hidden;
+}
+
 body a {
 	text-decoration: none;
 	transition: 0.5s all;
@@ -18,6 +22,7 @@ body a {
 	-moz-transition: 0.5s all;
 	-o-transition: 0.5s all;
 	-ms-transition: 0.5s all;
+
 }
 
 a:hover {
@@ -385,7 +390,8 @@ h1.main-title {
 }
 
 .like {
-	margin-left: 570px;
+	margin-left: 220px;
+	margin-bottom: -40px;
 }
 
 /* MARKETING CONTENT
@@ -553,6 +559,7 @@ h3.tittle {
 	margin-right: 900px;
 	font-family: var(--londrina);
 	letter-spacing: 2px;
+	margin-bottom: 15px;
 }
 
 h3.tittle.cen {
@@ -561,11 +568,11 @@ h3.tittle.cen {
 
 h3.blog-tittle {
 	text-align: center;
-	font-size: 2.5em;
+	font-size: 2.4em;
 	color: #2c363e;
 	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.37);
 	font-weight: 500;
-	margin-right: 480px;
+	margin-right: 450px;
 	margin-top: 1.5rem;
 	margin-bottom: 1.5rem;
 	font-family: var(--londrina);
@@ -2081,6 +2088,11 @@ a.facebook:hover {
 }
 
 @media(max-width:320px) {
+	body {
+		overflow-x: hidden;
+		overflow-y: scroll;
+	}
+
 	h3.tittle {
 		font-size: 1.6em;
 	}
@@ -2134,6 +2146,23 @@ a.facebook:hover {
 
 	.copyrightbottom p {
 		font-size: 0.61em;
+	}
+
+	.agileits-ls-right-blog-con {
+		margin-top: 1em;
+	}
+
+	.tech-btm h4 {
+		margin-left: 90px;
+	}
+
+	.blog-grid-top p {
+		margin-bottom: 1em;
+		font-size: 0.8em;
+	}
+
+	.blog-grid-top h3 {
+		font-size: 1em;
 	}
 }
 
