@@ -904,6 +904,11 @@ h5.card-title a {
 	color: #333333;
 }
 
+h5.card-title a:hover {
+	cursor: pointer;
+	color: #ffa45c;
+}
+
 .blog-grid-top p,
 .two-blog2 p {
 	margin-bottom: 2em;
@@ -959,6 +964,11 @@ ul.blog-icons i {
 	color: #333333;
 	font-weight: 700;
 	margin-bottom: 1em;
+}
+
+.tech-btm .blog-grid-right a:hover {
+	color: #ff8a5c;
+	text-decoration: underline;
 }
 
 .tech-btm {
@@ -1544,6 +1554,36 @@ a.facebook:hover {
 	form.header-search {
 		width: 34%;
 	}
+
+	h1.main-title {
+		margin: 50px 0px;
+		font-size: 3.8em;
+	}
+
+	h3.tittle {
+		font-size: 2.5em;
+		margin-right: 750px;
+		margin-bottom: 15px;
+
+	}
+
+	h3.blog-tittle {
+		font-size: 2.5em;
+		margin-right: 310px;
+
+	}
+
+	h5.card-title {
+		font-size: 1.1em;
+		margin: 1em 0 1em 0;
+
+	}
+
+	.tech-btm h5 {
+		font-size: 0.8em;
+		line-height: 1.3em;
+
+	}
 }
 
 @media(max-width:1080px) {
@@ -1582,6 +1622,11 @@ a.facebook:hover {
 	section.middle-sec-agileinfo-ls {
 		min-height: 600px;
 		padding: 3em 0;
+	}
+
+	h1.main-title {
+		margin: 50px 0px;
+		font-size: 3.5em;
 	}
 }
 
@@ -1641,6 +1686,23 @@ a.facebook:hover {
 
 	.card {
 		margin-bottom: 1.5em;
+	}
+
+	h1.main-title {
+		margin: 30px 0px;
+		font-size: 3em;
+	}
+
+	.top-title {
+
+		height: 200px;
+	}
+
+	h3.tittle,
+	h3.blog-tittle {
+
+		margin-right: 0px;
+
 	}
 }
 
