@@ -326,7 +326,7 @@ form.header-search {
 	padding: 10px 10px;
 	/* margin: 20px; */
 	text-align: center;
-	margin: 20px 0px;
+	margin: 0 0 20px 0px;
 	height: 300px;
 }
 
@@ -1704,6 +1704,7 @@ a.facebook:hover {
 		margin-right: 0px;
 
 	}
+
 }
 
 @media(max-width:900px) {
@@ -1743,6 +1744,31 @@ a.facebook:hover {
 
 	.carousel-caption {
 		bottom: 7em;
+	}
+
+	h1.main-title {
+		margin: 50px 0px;
+		font-size: 2.4em;
+	}
+
+	h3.tittle,
+	h3.blog-tittle {
+		font-size: 2.2em;
+
+	}
+
+	.container {
+		max-width: 600px;
+	}
+
+	a.btn.btn-primary.read-m {
+
+		padding: 0.4em 1em;
+
+	}
+
+	.blog-grid-right {
+		margin-left: 45px;
 	}
 }
 
@@ -1896,6 +1922,38 @@ a.facebook:hover {
 		font-size: 1.4em;
 		letter-spacing: 1px;
 	}
+
+	h1.main-title {
+		margin: 15px 0px;
+		font-size: 2.3em;
+	}
+
+	.card,
+	.card img {
+
+		margin-left: 20px;
+	}
+
+	.tech-btm h4 {
+
+		margin-left: 125px;
+	}
+
+	.blog-grid-right {
+		margin-left: 135px;
+		margin-top: -120px;
+	}
+
+	.footer-grid-agileits-ls:nth-child(2) {
+		display: none;
+	}
+
+	.copyrighttop li {
+
+		display: block;
+		text-align: left;
+		margin-left: px;
+	}
 }
 
 @media(max-width:414px) {
@@ -1984,11 +2042,98 @@ a.facebook:hover {
 	.header-search button.btn1 {
 		width: 29%;
 	}
+
+	a.navbar-brand {
+		font-size: 1.5em;
+
+	}
+
+	.navbar-brand img {
+
+		height: 50px;
+		width: 50px;
+	}
+
+	h1.main-title {
+		margin: 25px 0px;
+		font-size: 2.1em;
+	}
+
+	h3.tittle,
+	h3.blog-tittle {
+		font-size: 2em;
+	}
+
+	.tech-btm h4 {
+		margin-left: 110px;
+	}
+
+	.copyrighttop ul li a span {
+
+		font-size: 0.7em;
+
+	}
+
+	.copyrightbottom p {
+
+		font-size: 0.75em;
+	}
 }
 
 @media(max-width:320px) {
 	h3.tittle {
 		font-size: 1.6em;
+	}
+
+	h1.main-title {
+		margin: 10px 0px;
+		font-size: 1.7em;
+	}
+
+	.top-title {
+		height: 140px;
+	}
+
+	h3.blog-tittle {
+		font-size: 1.8em;
+	}
+
+	.card,
+	.card img {
+		margin-left: 10px;
+	}
+
+	.tech-btm h5 {
+		font-size: 0.7em;
+	}
+
+	.footer-grid-agileits-ls h3 {
+		font-size: 1em;
+	}
+
+	p.about-footer {
+		line-height: 20px;
+		color: #A9A9A9;
+		font-size: 0.7em;
+	}
+
+	a.btn.btn-primary.read-m {
+		padding: 0.4em 1em;
+
+		font-size: 0.7em;
+	}
+
+	.copyrighttop ul li {
+		margin-bottom: 0.2em;
+	}
+
+	.copyrighttop ul li a span,
+	.copyrighttop i.fab {
+		font-size: 0.6em;
+	}
+
+	.copyrightbottom p {
+		font-size: 0.61em;
 	}
 }
 
