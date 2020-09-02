@@ -627,10 +627,10 @@ h3.blog-tittle {
 .hurry .hurry-inner-padding .hurry-info {
 	color: #002651;
 	/* border-color: #a1eafb; */
-	background-color: #a6fff2;
+	background-color: #ace7ef;
 	text-align: left;
 	padding: 10px;
-	border-left: 6px solid #74f9ff;
+	border-left: 6px solid #4592af;
 }
 
 .hurry .hurry-inner-padding .hurry-info p {
@@ -662,6 +662,8 @@ h3.blog-tittle {
 	font-size: 14px;
 	margin-left: 5px;
 }
+
+
 
 .blog-grid-top a.email-find {
 	text-decoration: none;
@@ -1232,6 +1234,7 @@ section.middle-sec-agileinfo-ls {
 li.breadcrumb-item {
 	font-size: 0.9em;
 	letter-spacing: 1px;
+	font-weight: bolder;
 }
 
 li.breadcrumb-item a {
@@ -1240,7 +1243,8 @@ li.breadcrumb-item a {
 
 .breadcrumb-item.active,
 .breadcrumb-item a:hover {
-	color: var(--blue);
+	color: #107a8b;
+
 }
 
 
