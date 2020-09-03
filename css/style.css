@@ -1595,6 +1595,17 @@ a.facebook:hover {
 		line-height: 1.3em;
 
 	}
+
+	.banner-inner h3 {
+
+		font-size: 45px;
+
+		padding: 30px 0;
+	}
+
+	.banner-inner {
+		min-height: 125px !important;
+	}
 }
 
 @media(max-width:1080px) {
@@ -1779,7 +1790,49 @@ a.facebook:hover {
 	}
 
 	.blog-grid-right {
-		margin-left: 45px;
+		margin-left: 0;
+	}
+
+	.hurry {
+
+		padding: 0;
+	}
+
+	.hurry .hurry-inner-padding .hurry-info p {
+		font-size: 12px;
+
+	}
+
+	.hurry .hurry-inner-padding .hurry-info b {
+		font-size: 13px;
+	}
+
+	.hurry .hurry-inner-padding .hurry-info a {
+		font-size: 12px;
+
+	}
+
+	.mb-3 {
+
+		margin: 1rem;
+	}
+
+	a.facebook {
+
+		font-size: 13px;
+	}
+
+	.copyrighttop {
+		margin-bottom: 1em;
+	}
+
+	.footer-grid-agileits-ls:nth-child(2) {
+		margin-top: 2em;
+	}
+
+	.like-blog {
+		margin-left: 420px;
+		margin-bottom: -35px;
 	}
 }
 
@@ -1965,6 +2018,87 @@ a.facebook:hover {
 		text-align: left;
 		margin-left: px;
 	}
+
+	.hurry .hurry-inner-padding .hurry-info h5 {
+
+		font-size: 13px;
+	}
+
+	.bottom-slider,
+	.main-content-layouts-agileits,
+	footer,
+	.banner-bottom {
+		padding: 1em 0;
+	}
+
+	.like {
+
+		margin-bottom: -20px;
+	}
+
+	.blog-grid-top h3,
+	.two-blog2 h3,
+	h5.card-title {
+		font-size: 1em;
+	}
+
+	.blog-grid-top h3,
+	.two-blog2 h3,
+	h5.card-title {
+		font-size: 1.01em;
+		margin: 1em 0 0.8em 0;
+
+	}
+
+	.blog-grid-top p,
+	.two-blog2 p {
+		margin-bottom: 1em;
+	}
+
+	p {
+		font-size: 0.85em;
+	}
+
+	h3.tittle,
+	h3.blog-tittle {
+		margin-right: 150px;
+	}
+
+	.like-blog {
+		margin-left: 230px;
+		margin-bottom: -35px;
+	}
+
+	.banner-inner h3 {
+		font-size: 35px;
+		padding: 40px 0;
+	}
+
+	li.breadcrumb-item {
+		font-size: 0.8em;
+		letter-spacing: 1px;
+		font-weight: bolder;
+	}
+
+	.inner-sec {
+
+		margin-left: 1rem;
+	}
+
+	.card-body {
+
+		padding: 0;
+	}
+
+	.my-4 {
+		margin-bottom: 1rem !important;
+	}
+
+	.btn-danger {
+
+		margin: 0 7rem;
+	}
+
 }
 
 @media(max-width:414px) {
@@ -2030,6 +2164,25 @@ a.facebook:hover {
 }
 
 @media(max-width:375px) {
+	p {
+
+		line-height: 1.6em;
+
+	}
+
+	p.about-footer {
+		font-size: 0.8em;
+	}
+
+	.tech-btm h5 {
+		font-size: 0.7em;
+	}
+
+	.sub-meta span {
+		font-size: 0.7em;
+
+	}
+
 	.inner-sec {
 		margin-top: 1.5em;
 	}
@@ -2089,12 +2242,38 @@ a.facebook:hover {
 
 		font-size: 0.75em;
 	}
+
+	.bottom-slider,
+	.main-content-layouts-agileits,
+	footer,
+	.banner-bottom {
+		padding: 1em 0;
+	}
+
+	.like {
+		margin-left: 180px;
+
+	}
+
+	.like-blog {
+		margin-left: 200px;
+	}
+
+	.banner-inner h3 {
+		font-size: 30px;
+		padding: 40px 0;
+	}
+
+	.card,
+	.card img {
+		margin-left: 10px;
+	}
 }
 
 @media(max-width:320px) {
 	body {
 		overflow-x: hidden;
-		overflow-y: scroll;
+
 	}
 
 	h3.tittle {
@@ -2168,6 +2347,48 @@ a.facebook:hover {
 	.blog-grid-top h3 {
 		font-size: 1em;
 	}
+
+	.banner-inner h3 {
+		font-size: 25px;
+	}
+
+	.banner-inner {
+		min-height: 105px !important;
+	}
+
+	.like {
+		margin-left: 150px;
+	}
+
+	.like-blog {
+		margin-left: 150px;
+	}
+
+	.card,
+	.card img {
+		margin-left: 0px;
+		padding-left: 0px;
+	}
+
+	.blog-grid-top h3,
+	.two-blog2 h3,
+	h5.card-title {
+		font-size: 0.9em;
+		margin: 0.5em 0 0.5em 0;
+	}
+
+	.breadcrumb {
+
+		padding: 0.5rem 0.5rem;
+		margin-bottom: 1rem;
+
+	}
+
+	li.breadcrumb-item {
+		font-size: 0.8em;
+		letter-spacing: 0.2px;
+	}
+
 }
 
 /*--//responsive--*/
