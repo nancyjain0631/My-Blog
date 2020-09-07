@@ -248,6 +248,12 @@ li.nav-item {
 	margin: 0 1px;
 }
 
+li.nav-item .far,
+li.nav-item .fas {
+	font-size: 20px;
+	padding: 3px;
+}
+
 .navbar-light .navbar-nav .nav-link {
 	padding: 0.7em 1.3em;
 	color: #333;
@@ -351,7 +357,7 @@ h1.main-title {
 
 .like {
 	margin-left: 240px;
-	margin-bottom: -40px;
+	margin-bottom: -50px;
 }
 
 /* MARKETING CONTENT
@@ -570,6 +576,15 @@ h3.blog-tittle {
 
 .inner-sec {
 	margin-top: 0.3em;
+}
+
+.inner-sec h2 {
+	font-size: 25px;
+	font-weight: bolder;
+	text-transform: uppercase;
+	margin: 10px;
+	padding: 10px;
+	font-family: 'Luckiest Guy', cursive;
 }
 
 .hurry {
@@ -853,6 +868,67 @@ button.btn.btn-primary.play {
 
 .blog-info-middle ul li {
 	display: inline-block;
+}
+
+.row1 {
+	margin: 10px;
+	margin-bottom: 30px;
+	padding: 10px;
+	height: 200px;
+}
+
+.row1 ul {
+	text-decoration: none;
+	list-style: none;
+
+}
+
+.row1 ul li {
+	float: left;
+}
+
+.row1 .img-link {
+	margin-right: 30px;
+	margin-left: 30px;
+	width: 100px;
+}
+
+
+.row1 .blog-text {
+	margin-right: 10px;
+	padding: 10px;
+	max-width: 500px;
+}
+
+.row1 .blog-text a {
+
+	color: black;
+}
+
+.row1 .blog-text h3 {
+	font-size: 15px;
+	margin-bottom: 10px;
+
+}
+
+.row1 .blog-text h3:hover {
+	cursor: pointer;
+	color: #ffa45c;
+	transition: .3s ease;
+}
+
+.row1 .blog-text p {
+	font-size: 13px;
+	line-height: 24px;
+}
+
+.hr-line {
+	background-color: #3f3b3b;
+	height: 1px;
+}
+
+.row1 .buy-now {
+	margin: 5px;
 }
 
 .comment-section {
