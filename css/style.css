@@ -888,8 +888,8 @@ button.btn.btn-primary.play {
 }
 
 .row1 .img-link {
-	margin-right: 30px;
-	margin-left: 30px;
+	margin-right: 10px;
+	margin-left: 10px;
 	width: 100px;
 }
 
@@ -898,6 +898,7 @@ button.btn.btn-primary.play {
 	margin-right: 10px;
 	padding: 10px;
 	max-width: 500px;
+	margin-left: 60px;
 }
 
 .row1 .blog-text a {
@@ -929,6 +930,7 @@ button.btn.btn-primary.play {
 
 .row1 .buy-now {
 	margin: 5px;
+	margin-left: 70px;
 }
 
 .comment-section {
